@@ -14,10 +14,38 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
     max-width: 1440px;    
-    padding: 40px;
+    padding: 20px;
     min-height: 100vh;
 }
 .container > div{
     flex: 1;
+    padding: 0 20px;
+}
+h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+p{
+    opacity: 0.8;
+    font-size: 15px;
+}
+.box{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box p{
+    margin: 0;
+    
+}
+.box-blue{
+    background-color: hsl(248, 32%, 49%);
+}
+input{
+    
 }
