@@ -51,6 +51,7 @@ p{
     position: relative;
 }
 .form-control small{
+    color: hsl(0, 100%, 74%);
     position: absolute;
     bottom: -20px;
     right: 0;
